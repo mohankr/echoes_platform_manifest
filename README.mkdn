@@ -1,0 +1,16 @@
+Echoes
+======
+This is my work in progress for pure builds of Google Android AOSP (as much as I can)
+
+
+Gettings Started
+----------------
+
+To initialize you local repository using the Echoes fork. (Latest branch is lp-5.0)
+
+$ repo init -u git://github.com/CyanogenMod/android.git -b lp-5.0
+
+Now, you can sync (will take a long time):
+
+$ repo sync
+
