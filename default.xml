@@ -19,7 +19,7 @@
     sync-j="4"
   />
 
-  <project path="build" name="platform/build" remote="echoes_platform_build" revision="lp-5.0" groups="pdk,tradefed" >
+  <project path="build" name="echoes_platform_build" remote="local" revision="lp-5.0" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
