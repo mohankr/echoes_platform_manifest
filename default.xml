@@ -513,4 +513,13 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
+  <!--
+      echoes additions
+  -->
+  <project 
+    path="vendor/echoes" 
+    name="mohankr/vendor_echoes" 
+    remote="github" 
+    revision="lp5.0" 
+  />
 </manifest>
