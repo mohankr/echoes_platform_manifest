@@ -520,6 +520,6 @@
     path="vendor/echoes" 
     name="mohankr/vendor_echoes" 
     remote="github" 
-    revision="lp5.0" 
+    revision="lp-5.0" 
   />
 </manifest>
