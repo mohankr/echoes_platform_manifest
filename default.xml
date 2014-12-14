@@ -521,10 +521,5 @@
   <!--
       echoes additions
   -->
-  <project 
-    path="vendor/echoes" 
-    name="mohankr/vendor_echoes" 
-    remote="github" 
-    revision="lp-5.0" 
-  />
+  <project path="vendor/echoes" name="mohankr/vendor_echoes" remote="github" revision="lp-5.0" />
 </manifest>
