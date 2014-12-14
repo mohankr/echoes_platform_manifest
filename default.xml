@@ -278,7 +278,7 @@
   <project path="external/vixl" name="platform/external/vixl" groups="pdk" />
   <project path="external/webp" name="platform/external/webp" groups="pdk-cw-fs,qcom_msm8x26" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
-  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" />
+  <project path="external/wpa_supplicant_8" name="mohankr/echoes_external_wpa_supplicant_8" remote="github" revision="lp-5.0" groups="pdk" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" groups="pdk-cw-fs" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" groups="pdk-cw-fs" />
   <project path="external/yaffs2" name="platform/external/yaffs2" groups="pdk" />
@@ -512,7 +512,12 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
-
+  <!--
+    CAF
+  -->
+  <project path="device/qcom/msm8974" name="mohankr/echoes_device_qcom_msm8974" remote="github" revision="lp-5.0" />
+  <project path="device/qcom/sepolicy" name="mohankr/echoes_device_qcom_sepolicy" remote="github" revision="lp-5.0" />
+  <project path="device/qcom/common" name="mohankr/echoes_device_qcom_common" remote="github" revision="lp-5.0" />
   <!--
       echoes additions
   -->
